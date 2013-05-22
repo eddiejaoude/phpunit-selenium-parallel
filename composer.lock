@@ -3,8 +3,64 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "f60417d609e2325a8673d7804f230412",
+    "hash": "6ad6be60f0b24e9b45408376d1778f02",
     "packages": [
+        {
+            "name": "brianium/paratest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brianium/paratest.git",
+                "reference": "b6707b1abfaa4ce4dff788023f8c8ea2c2550295"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/b6707b1abfaa4ce4dff788023f8c8ea2c2550295",
+                "reference": "b6707b1abfaa4ce4dff788023f8c8ea2c2550295",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-simplexml": "*",
+                "php": ">=5.3.0",
+                "phpunit/php-timer": ">=1.0.4",
+                "phpunit/phpunit": ">=3.7.8",
+                "symfony/console": ">=2.0.0"
+            },
+            "bin": [
+                "bin/paratest"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "ParaTest": [
+                        "src/",
+                        "test/",
+                        "it/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "APACHE-2"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Scaturro",
+                    "email": "scaturrob@gmail.com",
+                    "homepage": "http://brianscaturro.com",
+                    "role": "Lead"
+                }
+            ],
+            "description": "Parallel testing for PHP",
+            "homepage": "https://github.com/brianium/paratest",
+            "keywords": [
+                "phpunit",
+                "testing"
+            ],
+            "time": "2013-05-17 16:22:12"
+        },
         {
             "name": "element-34/php-webdriver",
             "version": "v1.9.0",
@@ -405,6 +461,53 @@
             "time": "2013-01-13 10:24:48"
         },
         {
+            "name": "symfony/console",
+            "version": "v2.2.1",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "v2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/v2.2.1",
+                "reference": "v2.2.1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-03-19 20:48:08"
+        },
+        {
             "name": "symfony/yaml",
             "version": "v2.2.1",
             "target-dir": "Symfony/Component/Yaml",
@@ -459,9 +562,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "brianium/paratest": 20
+    },
     "platform": [
 
     ],

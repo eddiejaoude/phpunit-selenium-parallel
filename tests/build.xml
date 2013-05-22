@@ -1,0 +1,10 @@
+<project name="PHP Selenium Parallel" default="build" basedir=".">
+
+    <target name="phpunit"
+            description="Run tests using PHPUnit">
+        <exec dir="${basedir}" executable="phpunit" failonerror="false" />
+    </target>
+
+    <target name="build" depends="phpunit"/>
+
+</project>

@@ -1,0 +1,28 @@
+<project name="PHP Selenium Parallel" default="build" basedir=".">
+
+    <target name="parallel"
+            description="Run tests using PHPUnit">
+            <parallel threadCount="2">
+                    <antcall target="phpunit1"/>
+                    <antcall target="phpunit2"/>
+            </parallel>
+    </target>
+
+    <target name="phpunit1"
+            description="Test suite 1">
+        <exec dir="${basedir}" executable="phpunit" failonerror="false">
+            <arg line="--configuration=phpunit-selenium.xml --filter ExampleTest" />
+        </exec>
+    </target>
+
+    <target name="phpunit2"
+            description="Test suite 2">
+        <exec dir="${basedir}" executable="phpunit" failonerror="false">
+            <arg line="--configuration=phpunit-selenium.xml --filter Example2Test" />
+        </exec>
+    </target>
+
+
+    <target name="build" depends="parallel"/>
+
+</project>

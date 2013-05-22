@@ -18,3 +18,5 @@ Expected results:
 2. 25s
 3. 25s
 
+Additional:
+1. Pen testing via zap proxy

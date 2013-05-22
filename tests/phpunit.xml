@@ -1,0 +1,7 @@
+<phpunit>
+    <testsuites>
+        <testsuite name="php-selenium-parallel">
+            <file>Application/Phpunit/ExampleTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

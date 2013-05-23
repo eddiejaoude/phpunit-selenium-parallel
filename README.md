@@ -38,7 +38,18 @@ Additional info:
 ---------------- 
 Pen testing via zap proxy
 
+Improvements
+------------
+More tests should be created & run against a larger amount of selenium nodes
+
 Resources
 ---------
-3. https://github.com/brianium/paratest 
-4. https://github.com/verkkokauppacom/parallel-phpunit 
+
+* http://code.google.com/p/selenium/wiki/Grid2
+* http://phpunit.de/manual/current/en/index.html
+* https://github.com/Element-34/php-webdriver
+* https://github.com/brianium/paratest
+* https://github.com/verkkokauppacom/parallel-phpunit
+* IRC #selenium
+
+

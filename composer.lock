@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6ad6be60f0b24e9b45408376d1778f02",
+    "hash": "e0e2d705ff9af403b60a78b3a0090f75",
     "packages": [
         {
             "name": "brianium/paratest",
-            "version": "dev-master",
+            "version": "v0.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brianium/paratest.git",
-                "reference": "b6707b1abfaa4ce4dff788023f8c8ea2c2550295"
+                "reference": "v0.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brianium/paratest/zipball/b6707b1abfaa4ce4dff788023f8c8ea2c2550295",
-                "reference": "b6707b1abfaa4ce4dff788023f8c8ea2c2550295",
+                "url": "https://api.github.com/repos/brianium/paratest/zipball/v0.4.4",
+                "reference": "v0.4.4",
                 "shasum": ""
             },
             "require": {
@@ -59,7 +59,7 @@
                 "phpunit",
                 "testing"
             ],
-            "time": "2013-05-17 16:22:12"
+            "time": "2013-03-10 03:29:22"
         },
         {
             "name": "element-34/php-webdriver",
@@ -553,6 +553,43 @@
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
             "time": "2013-03-23 07:49:54"
+        },
+        {
+            "name": "verkkokauppacom/parallel-phpunit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verkkokauppacom/parallel-phpunit.git",
+                "reference": "7c8582bfa52518d1e949ca6bd156e8af4a26534c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verkkokauppacom/parallel-phpunit/zipball/7c8582bfa52518d1e949ca6bd156e8af4a26534c",
+                "reference": "7c8582bfa52518d1e949ca6bd156e8af4a26534c",
+                "shasum": ""
+            },
+            "require": {
+                "phpunit/phpunit": "*"
+            },
+            "bin": [
+                "bin/parallel-phpunit"
+            ],
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuli Siivonen",
+                    "email": "samuli.siivonen@reaktor.fi"
+                }
+            ],
+            "description": "Parallel version of phpunit command line",
+            "support": {
+                "source": "https://github.com/verkkokauppacom/parallel-phpunit/tree/master",
+                "issues": "https://github.com/verkkokauppacom/parallel-phpunit/issues"
+            },
+            "time": "2013-05-21 07:07:04"
         }
     ],
     "packages-dev": [
@@ -563,7 +600,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "brianium/paratest": 20
+        "verkkokauppacom/parallel-phpunit": 20
     },
     "platform": [
 

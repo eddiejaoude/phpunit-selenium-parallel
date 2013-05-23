@@ -9,12 +9,18 @@
     ],
     "require": {
         "Element-34/php-webdriver": "v1.9.0",
-        "brianium/paratest": "dev-master"
+        "brianium/paratest": "v0.4.4",
+        "verkkokauppacom/parallel-phpunit": "dev-master"
     },
     "repositories": [
         {
             "type": "vcs",
             "url":  "git://github.com/Element-34/php-webdriver.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git://github.com/verkkokauppacom/parallel-phpunit.git"
         }
+
     ]
 }

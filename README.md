@@ -16,6 +16,13 @@ Options
   - Pros: runs all tests in parallel.
   - Cons: results come back separately.
 
+Prerequisite
+------------
+*NB: From project root directory*
+
+1. Hub: java -jar selenium-server-standalone-2.32.0.jar -role hub
+2. Slave: java -jar selenium-server-standalone-2.32.0.ja-role node  -hub http://[HUB-IP]:4444/grid/register
+
 Commands
 --------
 *tests/ directory*
@@ -52,4 +59,7 @@ Resources
 * https://github.com/verkkokauppacom/parallel-phpunit
 * IRC #selenium
 
+Appendix
+--------
 
+![Architecture](selenium-xUnit.png "Infrastructure setup")

@@ -18,9 +18,9 @@ Commands:
 3b. ../vendor/bin/parallel-phpunit --pu-threads 2 -c phpunit-selenium.xml ApplicationTest/Selenium/
 
 Results: 2 tests with 2 assertions, 2 worker agents
-1. 50s
-2. 25s
-3. 25s
+1. 14s
+2. 8s
+3b. 12s
 
 Additional:
 1. Pen testing via zap proxy

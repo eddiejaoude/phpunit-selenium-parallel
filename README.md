@@ -21,7 +21,7 @@ Prerequisite
 *NB: From project root directory*
 
 1. Hub: java -jar selenium-server-standalone-2.32.0.jar -role hub
-2. Slave: java -jar selenium-server-standalone-2.32.0.ja-role node  -hub http://[HUB-IP]:4444/grid/register
+2. Slave(s): java -jar selenium-server-standalone-2.32.0.ja-role node  -hub http://[HUB-IP]:4444/grid/register
 
 Commands
 --------
